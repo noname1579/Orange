@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html, .main {
+html, .main, body {
     background-color: rgb(46, 43, 43);
+    margin: 0;
 }
 
 ::-webkit-scrollbar { display: none; }
@@ -20,6 +21,10 @@ html, .main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -141,7 +146,7 @@ html, .main {
 
 .productions {
     background-color: white;
-    background-size: 100%;
+
 }
 
 .prod {
@@ -198,4 +203,132 @@ html, .main {
     margin-top: 120px;
     margin-left: 100px;
     padding-bottom: 25px;
+}
+
+    /* --- Секция 4 --- */
+
+.promotions {
+    background-color: white;
+}
+
+.promotions h2 {
+    font-size: 40px;
+    margin-top: 75px;
+    padding-top: 160px;
+    padding-left: 260px;
+    font-weight: 300;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.advantages h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 10;
+    padding-top: 80px;
+    display: flex;
+    font-size: 38px;
+    font-weight: 400;
+    justify-content: center;
+    color: #242020;
+}
+
+.adv-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv-images img {
+    margin: 0 200px;
+    padding-top: 40px;
+}
+
+.adv-img h5{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+.adv-img h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #383232;
+    font-size: 19px;
+    line-height: 30px;
+    padding-bottom: 120px;
+}
+
+.adv-container {
+    padding-bottom: 25px;
+}
+
+.adv-bg {
+    margin-top: 200px;
+    background-color: rgb(241, 241, 241);;
+}
+
+    /* --- Секция 5 --- */
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    position: absolute;
+}
+
+.img-orange {
+    margin-top: 565px;
+}
+
+    /* --- Футер --- */
+
+.footer {
+    margin-top: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    padding-right: 100px;
+}
+
+.footer-about h2 {
+    color: rgba(190, 190, 190, 1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+.footer-about h3 {
+    color: rgba(190, 190, 190, 1);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer-about img {
+    padding: 0 10px;
+}
+
+.footer-about h4 {
+    color: rgb(211, 211, 211);
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.footer-container {
+    margin-bottom: 15px;
 }
