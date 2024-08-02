@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, .main {
+    background-color: rgb(46, 43, 43);
+}
+
+::-webkit-scrollbar { display: none; }
+
+    /* --- Header --- */ 
+
+    .container {
+        max-width: 1440px;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    margin-top: 6px;
+    width: 126px;
+    height: 35px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    margin-left: 60px;
+    color: rgba(147, 147, 147, 1);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    color: rgba(147, 147, 147, 1);
+    font-size: 18px;
+}
+
+.number1 {
+    margin-right: 15px;
+}
+
+.number a {
+    margin-left: 40px;
+    border: 1px solid #646161;
+    padding: 8px 10px;
+}
+
+    /* --- Главная секция --- */ 
+
+.main-text {
+    margin-top: 180px;
+}
+
+.main-text h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-buttons a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgba(190, 190, 190, 1);
+    margin-top: 50px;
+    font-size: 25px;
+    width: 250px;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+    border-bottom: 1px solid silver;
+}
+
+.main-buttons img {
+    padding-right: 20px;
+}
+
+.main-img {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    width: 850px;
+    height: 960px;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 300px;
+}
+
+    /* --- Секция 1 --- */
+
+.about {
+    margin-top: 115px;
+    height: 450px;
+    background-color: rgba(246, 246, 246, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text h2 {
+    margin-left: 200px;
+    line-height: 50px;
+    padding-top: 110px;
+    font-size: 25px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 200;
+}
+
+.about-img {
+    margin-top: 120px;
+    margin-right: 300px;
+}
+
+.about-img img {
+    margin-bottom: 60px;
+}
+
+    /* --- Секция 2 --- */
+
+.productions {
+    background-color: white;
+    background-size: 100%;
+}
+
+.prod {
+    padding-top: 100px;
+    color: black;
+    font-size: 33px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 260px;
+    font-weight: 100;
+}
+
+.prod-img {
+    margin-left: 300px;
+    padding-bottom: 130px;
+}
+
+    /* --- Секция 3 --- */
+
+.collection {
+    display: flex;
+}
+
+.col-text {
+    color: white;
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.col-text h1 {
+    font-size: 50px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.col-text p {
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.col-img {
+    position: relative;
+}
+
+.col-img1 {
+    position: absolute;
+}
+
+.col-img2 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    padding-bottom: 25px;
+}
