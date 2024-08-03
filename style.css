@@ -151,16 +151,18 @@ a {
 
 .prod {
     padding-top: 100px;
-    color: black;
-    font-size: 33px;
-    font-family: "Open Sans", sans-serif;
     margin-left: 260px;
-    font-weight: 100;
+}
+
+.prod h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 33px;
+    font-weight: 500;
 }
 
 .prod-img {
     margin-left: 300px;
-    padding-bottom: 130px;
+    padding-bottom: 200px;
 }
 
     /* --- Секция 3 --- */
@@ -173,7 +175,7 @@ a {
     color: white;
     margin-top: 130px;
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 141px;
 }
 
 .col-text h1 {
@@ -196,6 +198,7 @@ a {
 
 .col-img1 {
     position: absolute;
+    width: 100px;
 }
 
 .col-img2 {
