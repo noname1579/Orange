@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .main-text h1 {
+        font-size: 50px;
+    }
+
     .collection {
         display: block;
     }
@@ -15,6 +19,7 @@
     .col-text {
         margin-left: 10%;
         margin-right: 0;
+        font-size: 10px;
     }
 
     .col-img {
@@ -26,20 +31,25 @@
     }
 
     .about {
-        width: 100%;
+        display: none;
     }
 
     .promotion {
         display: block;
-        margin-left: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .productions {
         display: none;
     }
 
+    .advantages h3 {
+        font-size: 30px;
+    }
+
     .promotions h2 {
-        padding-left: 25%;
+        padding-left: 0;
     }
 
     .number {
@@ -54,8 +64,18 @@
         display: block;
     }
 
+    .adv-img h5{
+        font-size: 25px;
+    }
+
+    .adv-img h6{
+        font-size: 16px;
+    }
+
     .adv-images img {
-        margin: 0 39%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .img {
