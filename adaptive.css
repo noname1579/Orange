@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+
+    .main-img {
+        display: none;
+    }
+
+    .prod-img {
+        display: none;
+    }
+
+    .collection {
+        display: block;
+    }
+
+    .col-img {
+        display: none;
+    }
+
+    .about-text {
+        display: none;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about-img {
+        margin-left: 25%;
+    }
+
+    .promotion {
+        display: block;
+        margin-left: 30%;
+    }
+
+    .productions {
+        display: none;
+    }
+
+    .promotions h2 {
+        padding-left: 29%;
+    }
+
+    .adv-images {
+        display: block;
+    }
+
+    .adv-images img {
+        margin: 0 44%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .footer {
+        margin: 10% 15%;
+        display: block;
+    }
+
+    .footer-about {
+        margin-right: 0%;
+    }
+    
+    .footer-container {
+        display: none;
+    }
+}
