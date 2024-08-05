@@ -12,6 +12,11 @@
         display: block;
     }
 
+    .col-text {
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
     .col-img {
         display: none;
     }
@@ -24,13 +29,9 @@
         width: 100%;
     }
 
-    .about-img {
-        margin-left: 25%;
-    }
-
     .promotion {
         display: block;
-        margin-left: 30%;
+        margin-left: 15%;
     }
 
     .productions {
@@ -38,7 +39,15 @@
     }
 
     .promotions h2 {
-        padding-left: 29%;
+        padding-left: 25%;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .footer-about h2 {
+        padding: 0 0;
     }
 
     .adv-images {
@@ -46,7 +55,7 @@
     }
 
     .adv-images img {
-        margin: 0 44%;
+        margin: 0 39%;
     }
 
     .img {
