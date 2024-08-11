@@ -83,12 +83,22 @@
     }
 
     .footer {
-        margin: 10% 15%;
+        margin: 20px 0;
         display: block;
+        margin-bottom: 20px;
     }
 
     .footer-about {
         margin-right: 0%;
+    }
+
+    .footer-about h2 {
+        font-size: 15px;
+        margin: 25px 20px;
+    }
+
+    .footer-about h2::after{
+        display: none;
     }
     
     .footer-container {
